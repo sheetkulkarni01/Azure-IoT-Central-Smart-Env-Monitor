@@ -8,6 +8,7 @@ This project implements a simulated IoT device using Azure IoT Central and Azure
 
 ## 2. High-Level Architecture
 
+```
 Device (Python App)
         │
         │  (MQTT via DPS)
@@ -22,6 +23,7 @@ Azure IoT Central
         │
         ▼
 Dashboards & Monitoring
+```
 
 ---
 
