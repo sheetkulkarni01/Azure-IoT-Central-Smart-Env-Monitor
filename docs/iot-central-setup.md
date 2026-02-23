@@ -10,7 +10,7 @@ This document describes how the Smart Environment Monitor device was configured 
 2. Go to "Device Templates"
 3. Click "New"
 4. Select "IoT Device"
-5. Name it: Smart Environment Monitor
+5. Name it: `Smart Environment Monitor` 
 
 ---
 

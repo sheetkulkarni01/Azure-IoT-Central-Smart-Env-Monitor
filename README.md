@@ -53,3 +53,40 @@ command handling, and writable properties using Azure IoT Plug and Play.
     ```bash
    pip install -r requirements.txt 
    ```
+
+4. **Configure environment variables**
+Create a `.env` file based on `.env.example` and fill in your Azure IoT Central credentials.
+
+5. **Run the device**
+
+    ```bash
+   python src/smart_environment_device.py
+   ```
+
+## IoT Central Dashboard
+The IoT Central dashboard visualizes telemetry data using time-series charts for all sensor values.
+
+## Documentation
+Additional explanation and design decisions can be found in the `docs/` folder. 
+
+## Security Notes
+Secrets are managed via environment variables and excluded from version control using `.gitignore`.
+
+## Project Organization
+
+```plaintext
+
+Azure-IoT-Central-Smart-Env-Monitor/
+│
+├── src/
+│   └── smart_environment_device.py     # Main IoT device simulation script
+│
+├── docs/
+│   ├── architecture.md                 # System architecture and design explanation
+│   └── iot-central-setup.md            # Step-by-step IoT Central configuration guide
+│
+├── .env.example                        # Example environment variable template
+├── .gitignore                          # Excludes secrets and local files
+├── requirements.txt                    # Python dependencies
+├── README.md                           # Project overview and usage instructions
+```
