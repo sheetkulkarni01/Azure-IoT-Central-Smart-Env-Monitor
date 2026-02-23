@@ -1,0 +1,5 @@
+azure-iot-device
+python-dotenv
+
+Optional:
+asyncio
